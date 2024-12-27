@@ -12,7 +12,7 @@
 .sobre-mi{
     background-color: aqua;
     padding: 15px;
-    background-image: url(../images/pexels-mikhail-nilov-7988086.jpg);
+    background-image: url(../images/img-banner.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -39,4 +39,22 @@
 .introduccion{
     padding-left: 150px;
     padding-right: 150px;
+}
+
+.proyectos{
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px,1fr));
+    gap: 25px;
+    padding: 25px;    
+}
+
+h2{
+    padding: 25px;
+    font-size: 50px;
+}
+
+hr{
+    height: 3px;
+    color:red;
 }
