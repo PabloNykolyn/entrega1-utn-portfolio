@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.img-nav{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.sobre-mi{
+    background-color: aqua;
+    padding: 15px;
+    background-image: url(../images/pexels-mikhail-nilov-7988086.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+.cont-nombre{
+    display: flex;
+    justify-content: center;
+}
+
+.icon-code{
+    font-size: 600%;
+}
+
+.sobre-mi h1{
+    font-size: 70px;
+}
+
+.sobre-mi p{
+    font-size: 25px;
+}
+
+.introduccion{
+    padding-left: 150px;
+    padding-right: 150px;
+}
