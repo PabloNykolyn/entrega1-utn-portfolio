@@ -54,7 +54,63 @@ h2{
     font-size: 50px;
 }
 
-hr{
-    height: 3px;
-    color:red;
+.contacto{
+    background-image: url(../images/img-banner.jpg);
+    /* las tres lineas de abajo son para mostrar la imagen entera en todo su contenedor */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    width: 400px;    
+}
+
+.formulario form{
+    width: 100%;
+    height: auto;
+}
+
+.formulario form input{
+    width: 400px;
+    height: 40px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.formulario form label{
+    color: white;
+    font-size: 25px;
+}
+
+.formulario form .consulta{
+    height: 120px;
+}
+
+.consulta::-webkit-input-placeholder { /* esto es para ubicar la consulta arriba a la izquierda */
+
+    position: absolute; top: 8px; left: 2px;
+    position:0 0;
+    width:400px;
+}
+
+.btn-form{
+    color: white;
+    width: 410px; 
+    background-color:rgb(51, 51, 255); 
+    font-weight: bold;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(240, 238, 238);
 }
